@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+#contents {
+	margin: 30px 0;
+}
+#cont-head {
+	border-bottom: 1px solid #bfbfbf;
+}
+
+
+#contents>div{
+	/* border: 1px solid #000000; */
+}
+
+#aside {
+	margin: 0px 10px 0 0;
+	float: left;
+	width: 180px;
+
+}
+
+
+#aside>h2{
+	line-height: 60px;
+	padding: 30px 0 30px 0;
+	background-color: #dddddd;
+	text-align: center;
+	font-size: 20px;
+}
+
+#aside>ul>li{
+	padding: 8px 8px 10px;
+	margin: 5px 0 0 0;
+	border: 1px solid #a6a6a6;
+	
+}
+
+
+
+#main-cont {
+	float: left;
+	width: 800px;
+}
+
+.btn {
+	padding: 5px 0 5px 0;
+	width: 100px;
+}
+
+#main-content-footer {
+	padding: 20px 0;
+	text-align: center;
+}
+
+
+
+/* 글쓰기 폼 */
+
+#main-cont-body {
+	padding: 30px 0 0 0;
+}
+
+
+.form-gr {
+	padding: 0 0 10px 0;
+}
+
+#main-cont-body label {
+	width: 80;
+	display: inline-block;
+}
+
+#sel-bd {
+	padding: 6px 3px 6px 3px;
+	width: 150px;
+	/* height: 25px; */
+}
+
+input[type="text"]{
+	padding: 6px 3px 6px 6px;
+}
+
+input[type="password"]{
+	padding: 6px 3px 6px 6px;
+}
+
+input[type="radio"]{
+	
+}
+
+.form-title{
+	width: 80px;
+}
+
+#txt-title {
+	padding: 6px 3px 6px 6px;
+	width: 651px;
+}
+#txt-pw {
+	padding: 6px 3px 6px 6px;
+	width: 150px;
+}
+
+#txt-content {
+	width: 800px;;
+	height: 150px;
+}
+
+
+

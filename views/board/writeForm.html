@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<link rel="stylesheet" href="../../assets/css/mysite.css">
+	<link rel="stylesheet" href="../../assets/css/board.css">
+</head>
+<body>
+
+<div id="wrap">
+<div id="header" class="clearfix">
+		<h1>MySite</h1>
+		<ul>
+			<li><a href="">로그인</a></li>
+			<li><a href="">회원가입</a></li>
+		</ul>
+</div>
+	<div id="nav" class="clearfix">
+	<ul>
+		<li>입사지원서</li>
+		<li>게시판</li>
+		<li>갤러리</li>
+		<li>방명록</li>
+	</ul>
+	</div>
+	
+	<div id="contents" class="clearfix">
+		<div id="aside">
+			<h2>게시판</h2>
+			<ul>
+				<li>일반 게시판</li>
+				<li>댓글 게시판</li>
+				<li>첨부 게시판</li>
+			</ul>
+			
+		</div>
+		<div id="main-cont">
+			<div id="cont-head">
+			<h3>일반게시판</h3>
+			</div>
+			<div id="main-cont-body">
+				<div class="form-gr">
+					<label class="form-title" for="sel-bd">게시판선택</label>
+					<select id="sel-bd">
+						<option>선택해 주세요</option>
+						<option>공지사항</option>
+						<option>일반게시판</option>
+						<option>익명게시판</option>
+					</select>
+				</div>
+				<div class="form-gr"><!-- 제목 -->
+					<label class="form-title" for="txt-title">제목</label>
+					<input id="txt-title" type="text">
+				</div>
+			
+				<div class="form-gr"><!-- 비밀번호 -->
+					<label class="form-title" for="txt-pw">비밀번호</label>
+					<input id="txt-pw" type="password">
+				</div>
+				
+				<div class="form-gr"><!-- 공개범위 -->
+					<span class="form-title">공개범위</span>
+					<label for="p-1">본인</label>
+					<input id="p-1" type="radio" name="permit">
+					<label for="p-2">로그인회원</label><input id="p-2" type="radio" name="permit">
+					<label for="p-3">친구</label><input id="p-3" type="radio" name="permit">
+					<label for="p-4">전체</label><input id="p-4" type="radio" name="permit">
+				</div>
+				
+				<div class=""><!-- 허용범위 -->
+					<span class="form-title">허용범위</span>
+					<label for="ch-1">댓글허용</label><input id="ch-1" type="checkbox">
+					<label for="ch-2">답글허용</label><input id="ch-2" type="checkbox">
+					<label for="ch-3">좋아요허용</label><input id="ch-3" type="checkbox">
+				</div>
+				
+				<div class="form-gr"><!-- 글 내용 -->
+					<textarea id="txt-content"></textarea>
+				</div>
+				
+				<div class="form-gr"><!-- 첨부파일 -->
+					<label for="file">첨부파일</label><input id="file" type="file">
+				</div>
+				
+				<div id="main-content-footer"><!-- 버튼 -->
+					<button class="btn">등록</button>
+					<button class="btn">초기화</button>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	<div id="footer">
+		<div>
+			Copyright ⓒ 2020 황일영, All right reserved
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>
